@@ -514,7 +514,7 @@ async function broadcastPrediction() {
 
 
 function connectWebSocket() {
-    ws = new WebSocket(`wss://websocket.azhkthg1.net/websocket?token=${TOKEN}`);
+    ws = new WebSocket(`wss://websocket.gmwin.io/websocket?token=${TOKEN}`);
 
   ws.on("open", () => {
     console.log("Đã kết nối WebSocket thành công đến Sunwin.");
